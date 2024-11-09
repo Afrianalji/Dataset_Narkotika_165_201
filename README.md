@@ -1,24 +1,23 @@
 # Dataset-Narkotika_165_201 (UTS Temu Kembali Informasi)
 
-Deskripsi Proyek
-Dataset ini berisi 50 dokumen putusan pengadilan terkait pidana khusus narkotika dan psikotropika yang diputuskan di Pengadilan Negeri Malang. Setiap dokumen memiliki format PDF, dan file Overview.xlsx menyajikan ringkasan dari 50 putusan tersebut.
+Repository ini berisi dataset kasus narkotika yang digunakan untuk kebutuhan penelitian dan analisis dalam bidang temu kembali informasi dan teknik pembobotan dalam pencarian teks. Dataset ini disusun untuk membantu memahami pola distribusim jenis narkotika, serta detail terkait kasus penyalahgunaan narkotika di indonesia.
 
    
 # Detail File
-  1. Dataset/Narkotika.zip
-File ZIP ini berisi 50 dokumen PDF yang masing-masing mencakup putusan pengadilan terkait kasus narkotika dan psikotropika. Dokumen-dokumen ini menyajikan beberapa detail sebagai berikut:
-  - Nama terdakwa
-  - Jenis barang bukti (narkotika atau psikotropika)
-  - Lama hukuman
-  - Nama hakim
-  - Putusan pengadilan
-  - dll
+  1. 1. Dataset ini 50 dokumen PDF yang memberikan informasi terperinci tentang kasus penyalahgunaan narkotika dan psikotropika di wilayah kota malang. Setiap kolom dalam dataset mewakili aspek penting dari setiap kasus. berikut adalah deskripsi dalam dataset yang dapat membantu memahami struktur data secara lebih rinci:
 
-  2. Overview/Overview.xlsx
-File Overview.xlsx berisi ringkasan dari 50 putusan dalam format tabel dengan kolom sebagai berikut:
+- ID Kasus
+- Jenis Narkotika
+- Berat (gram)
+- Lokasi Kasus
+- Nama Hakim
+- Putusan Pengadilan
+- dll
+
+  2.Overview.xlsx berisi rangkuman dari 50 putusan dengan format tabel dengan kolom sebagai berikut:
   - No : Nomor urut data putusan.
   - Nomor Putusan : Nomor unik dari putusan, yang memuat informasi mengenai nomor kasus, tahun, dan lembaga peradilan yang menangani kasus tersebut.
-  - Lembaga Pengadilan : Lokasi Lembaga Pengadilan yang menangani kasus (Pengadilan Negeri Pasuruan).
+  - Lembaga Pengadilan : Lokasi Lembaga Pengadilan yang menangani kasus (Pengadilan Negeri Malang).
   - Barang Bukti : Deskripsi dari jenis dan jumlah barang bukti.
   - Amar Putusan : Ringkasan hasil putusan hakim terhadap terdakwa dalam kasus tersebut. Amar putusan berisi nama terdakwa, dakwaan, serta hasil keputusan.
 
